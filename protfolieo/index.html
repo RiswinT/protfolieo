@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec8cce8c14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="contanier">
+            <nav>
+                <h1><span>R</span>iswin<span>.</span>com</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     <i class="fas fa-items" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="heder-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Riswin</span><br></h1>
+            </div>
+        </div>
+    </div>
+<!-------------                    about              --------------->
+<div id="about">
+    <div class="contanier">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">ABOUT ME</h1>
+                <p>To work in a heaithy, innovative and challenging environment extracting the best 
+                    out of me, which is conducive to learn and grow at professional as well as personal level
+                    thereby to securea challenging position in the corporate world using my skills as a
+                    mechanical engineer.</p>
+                <div class="tab-tittles">
+                    <div class="tab-links  active-link"  onclick="opentab('skils')">Skill</div>
+                    <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web/app interfaces</li>
+                        <li><span>WEb Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Bulding Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web/app interfaces</li>
+                        <li><span>WEb Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Bulding Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design web/app interfaces</li>
+                        <li><span>WEb Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Bulding Android/ios apps</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!---------             services          ----------->
+<div id="services">
+    <div class="contanier">
+        <h1 class="sub-tittle">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Developer</h2>
+                <p>A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web development</h2>
+                <p>A web developer's job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website's performance and capacity. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Creo designer</h2>
+                <p>Creo is a family of Computer-aided design (CAD) apps supporting product design for discrete manufacturers and is developed by PTC.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-------------------------             protfolio          -------------------->
+<div id="protfolio">
+    <div class="contanier">
+        <h1 class="sub-tittle">PROJECTS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Personal Website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, rerum. Veritatis ipsam aut consequatur ullam voluptate, numquam at minus </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Drum Kit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, rerum. Veritatis ipsam aut consequatur ullam voluptate, numquam at minus </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>product design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, rerum. Veritatis ipsam aut consequatur ullam voluptate, numquam at minus </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="btn">See more</div>
+    </div>
+</div>
+<!--------------         contact                 -------------------->
+<div id="contact">
+    <div class="contanier">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelopes"></i>riswin08032001@gmail.com</p>
+                <p><i class="fas fa-phone-squre-alt"></i>8428018520</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fac-facebook"></i></a>
+                    <a href="#"><i class="fa fac-twitter-squre"></i></a>
+                    <a href="#"><i class="fa fac-instagram"></i></a>
+                    <a href="#"><i class="fa fac-limkedin"></i></a>
+                </div>
+               
+                <a href="images/RISWIN  Resume.pdf"  class="btn btn2x">Download CV</a>
+            </div>
+            <div class="contact-Right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Nmae" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Massage"  rows="10" placeholder="Yoer Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+
+                </form>
+            
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>copyright Riswin.Its my website</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tablink.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementsByClassName(tabname).classlist.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
